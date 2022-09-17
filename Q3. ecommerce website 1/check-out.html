@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<!------title,links and meta section---------->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M-Farm</title>
+    <link rel="stylesheet" type heading="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <link rel="html" href="About.html">
+    <link rel="html" href="Shop.html">
+    <link rel="html" href="HOME1.html">
+    <script src="https://use.fontawesome.com/0495204cae.js"></script>
+  </head>
+
+
+  <!------navbar section---------->
+   <body>
+      <header>
+      <div class="header-wrapper">
+        <div class="aloha-logo-container">
+                <img class="aloha-logo" src="max.jpg" alt="The Aloha Apparel logo">
+                <h1 class="screen-reader-text">Aloha</h1>
+         </div>
+            <div class="cart-icon-container">
+                <img class="cart-icon" src="Cart image.png" alt="Shopping cart">
+                <span id="itemTotal" class="item-total-button"></span>
+            </div>
+            <nav class="nav headings">
+                <ul class="menu">
+                    <li class="link3"><a href="HOME.html">HOME</a></li>
+                    <li class="active"><a href="About.html">ABOUT</a></li>
+                    <li class="link2"><a href="Shop.html">SHOP</a></li>
+                    <li class="link4"><a href="Contact.html">CONTACT</a></li>
+                    <li class="link4"><a href="check-out.html">CHECK-OUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<!------banner section---------->
+     <section class="hero-banner"> 
+        <section class="max-template">
+            <div class="banner-container">
+              <h2 class="spring">Spring 2022</h2>
+            </div>
+        </section>
+       
+    
+
+        <!------Check-out section---------->
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+                
+
+                <!------cart section---------->
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-25">
+          <div class="container">
+            <h4>Cart
+              <span class="price" style="color:black">
+                <i class="fa fa-shopping-cart"></i>
+                <b>4</b>
+              </span>
+            </h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!------footer section---------->
+    <footer class="footer-banner">
+        <div class="footer-wrapper">
+            <div class="information-wrapper">
+                <div class="info-contact">
+                    <p>&copy; M-Farmproduct Co.</p>
+                    <p>Powered by HTML,CSS & JAVA</p>
+                </div>
+                <div class="info-contact">
+                    <p>+233 24-713-1107. <a href="info@M-Farmproduct.com">info@King-Farmproduct.com</a></p>
+                </div>
+                <div class="info-location">
+                    <p>Teshie-Road</p>
+                    <p>Accra-Ghana</p>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <ul class="social-list">
+                    <li><a href="#">
+                        <i class="fa fa-facebook"></i>
+                        <p class="social-text">Facebook</p></a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fa fa-twitter"></i>
+                        <p class="social-text">Twitter</p></a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fa fa-instagram"></i>
+                        <p class="social-text">Instagram</p></a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fa fa-pinterest"></i>
+                        <p class="social-text">Pinterest</p></a>
+                    </li>
+                    <li><a href="#">
+                        <i class="fa fa-google-plus"></i>
+                        <p class="social-text">Google+</p></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+
+</body>
+</html>
